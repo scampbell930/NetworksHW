@@ -52,6 +52,8 @@ def simulate_dynamics(time_step: int):
 
 
 if __name__ == '__main__':
+    print("Total Opinions after 1 timestep")
     simulate_dynamics(1)
     print("\n\n")
+    print("Total Opinions after 1000 timesteps")
     simulate_dynamics(1000)
